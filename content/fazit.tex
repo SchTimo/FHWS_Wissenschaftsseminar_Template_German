@@ -1,0 +1,13 @@
+\section{Fazit}\label{sec:fazit}
+Zum Schluss das Fazit oder die Schlußfolgerung mit Ausblick.
+Soooo viel Text bis jetzt. 
+Wie wäre es denn mal mit einem Bild?
+
+Das könnt ihr ganz einfach mit einem Befehl machen. Doch zuerst solltet ihr das Bild (referenziert mit dem Befehl ref: \imageRef{fig:cat} auch in euer Verzeichnis einfügen. Dafür ist der Ordner fig gedacht. Das steht für figure! ;)
+Im Anschluss einfach das Bild mit dem einfüge-Befehl referenzieren. Allerdings ist zu beachten, dass ihr es als Floating-Figure einfügt. Deswegen müsst ihr den Bereich mit begin einleiten:
+
+\begin{figure}[tbp]
+\centering % ZENTRIERT DAS BILD
+\includegraphics[width=0.5\textwidth]{fig/mustacheCat} % DER BEFEHL IN ECKIGEN KLAMMERN GIBT DIE BREITE AN, DIE DAS BILD EINNEHMEN SOLL. HIER DIE HALBE TEXTBREITE.
+\caption{Hier steht die Bildunterschrift\label{fig:cat}} % WENN IHR DAS ÜBER DEN BEFEHL INCLUDEGRAPHICS SETZT STEHT ES AUCH ÜBER DEM BILD.
+\end{figure}
