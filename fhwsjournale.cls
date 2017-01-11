@@ -1206,7 +1206,7 @@ works requires prior specific permission.
 %
 \def\continued{\global\continuedtrue}
 %
-\def\fnum@figure{\ifcontinued\global\continuedfalse\addtocounter{figure}{-1} Fig.~\thefigure---{\it Continued}\else Fig.~\thefigure\fi}%
+\def\fnum@figure{\ifcontinued\global\continuedfalse\addtocounter{figure}{-1} Abb.~\thefigure---{\it Continued}\else Abb.~\thefigure\fi}%
 \newenvironment{figure}
 	       {\@float{figure}}
 	       {\end@float}
