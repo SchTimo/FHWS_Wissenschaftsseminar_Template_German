@@ -360,8 +360,8 @@ DOI $=$ 10.1145/\@doi\ http://doi.acm.org/10.1145/\@doi}
 
 \def\ps@headings{%
     \let\@mkboth\@gobbletwo
-    \def\@oddhead{{\rhfont\rightmark}\hfill{\foliofont \@fhwsLogo:\thepage}}%
-    \def\@evenhead{{\foliofont \@fhwsLogo:\thepage}\hfill{\rhfont\leftmark}}%
+    \def\@oddhead{{\rhfont\rightmark}\hfill{\foliofont \@fhwsLogo:~\thepage}}%
+    \def\@evenhead{{\foliofont \@fhwsLogo:~\thepage}\hfill{\rhfont\leftmark}}%
     \def\@evenfoot{\null\hfill{\rfootfont\@runningfoot}}
     \def\@oddfoot{{\rfootfont\@runningfoot} \hfill\null}%
     \let\partmark\@gobble
