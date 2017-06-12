@@ -67,7 +67,7 @@
 %% `NP' means `no parentheses' 
 %%
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{acmsmall}[2010/07/15, fonts included on 28 June 2010]
+%\ProvidesClass{acmsmall}[2010/07/15, fonts included on 28 June 2010]
 
 \def\fileversion{v1.2}            
 \def\filedate{Nov. 04, 2011}
@@ -626,7 +626,7 @@ works requires prior specific permission.
 			     {-3.5\p@}%
 			     {\paragraphfont}}
 
-\def\@seccntformat#1{\csname the#1\endcsname.\hskip .4em}
+\def\@seccntformat#1{\csname the#1\endcsname\hskip .4em}
 \let\@period=.
 \def\@sect#1#2#3#4#5#6[#7]#8{%
   \ifnum #2>\c@secnumdepth
